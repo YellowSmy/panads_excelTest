@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #excel data import
-df = pd.read_excel('C:/Users/user/Desktop/pandas_excelEx/excelData/sample_data_50.xlsx');
+df = pd.read_excel('pandas_excelEx/excelData/sample_data_50.xlsx');
 df_length = len(df.columns);
 print(df_length);
 
